@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.input-container {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin: 20px auto 0;
+}
+.input-container .item-input {
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+input {
+   font-family: 'Roboto', sans-serif;
+   padding: 10px 20px;
+   border-radius: 15px;
+   font-size: 15px;
+   border: none;
+}
+label {
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
